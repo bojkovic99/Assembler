@@ -1,0 +1,47 @@
+#id		ime		sekcija		tip		offset		scope		velicina
+0		.UND		.UND		sekcija		0		local		0
+11		.bss:		.bss:		sekcija		0		local		8
+7		.data:		.data:		sekcija		0		local		20
+12		.end		.end		sekcija		0		local		0
+4		.text:		.text:		sekcija		0		local		41
+1		a		.data:		labela		17		global		0
+3		b		.UND		labela		0		global		0
+2		c		.bss:		labela		0		global		0
+6		d		.text:		labela		16		local		0
+5		e		.data:		labela		8		local		0
+8		f		.data:		labela		31		local		0
+9		g		.data:		labela		11		local		0
+10		h		.data:		labela		20		local		0
+ 
+#.ret.UND
+#offset		#type		vr[.UND]
+
+
+#.ret.text:
+#offset		#type		vr[.text:]
+0002		R_386_PC16		1
+0006		R_386_PC16		7
+000A		R_386_16		3
+0015		R_386_16		3
+0019		R_386_16		2
+001F		R_386_16		7
+0026		R_386_16		7
+
+
+#.ret.data:
+#offset		#type		vr[.data:]
+000D		R_386_16		2
+
+
+#.ret.bss:
+#offset		#type		vr[.bss:]
+
+
+#.UND
+
+#.text:
+2C	6E	FE	FF	2C	6E	06	00	3C	60	00	00	44	62	10	00	64	62	06	00	80	00	00	6C	80	00	00	22	9C	22	80	08	00	00	54	28	4C	80	08	00	00	
+#.data:
+00	00	00	00	00	00	00	00	1F	00	0F	0F	0F	00	00	00	00	FA	FA	FA	
+#.bss:
+00	00	00	00	00	00	00	00	
